@@ -172,8 +172,6 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Telefonos verzio */
-
 @media (max-width:459px) {
 
     .welcome-text{
@@ -204,5 +202,3 @@ body{
         height: 100%;
     }
 }
-
-/* Telefonos verzio */
