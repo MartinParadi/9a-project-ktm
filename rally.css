@@ -223,12 +223,14 @@ body{
 .rally-h1 {
     margin-left: 10rem;
     font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .rally-text {
     margin-left: 10rem;
     margin-right: 8rem;
     font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .row {
@@ -257,22 +259,33 @@ body{
 
 .card1 {
     background-image: url(Kevin_Benavides.jpg);
+    transition: 0.5s;
+    box-shadow: 4px 3px 2px 1px grey;
 }
 
 .card2 {
     background-image: url(Danilo_Petrucci.jpg);
+    transition: 0.5s;
+    box-shadow: 4px 3px 2px 1px grey;
 }
 
 .card3 {
     background-image: url(Matthias_Walkner.jpg);
+    transition: 0.5s;
+    box-shadow: 4px 3px 2px 1px grey;
 }
 
 .card4 {
     background-image: url(Toby_Price.jpg);
+    transition: 0.5s;
+    box-shadow: 4px 3px 2px 1px grey;
 }
 
 .rider-name {
-    color: whitesmoke;
+    color: black;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 20.5rem;
 }
 
 .rally-kep-2 {
@@ -281,4 +294,24 @@ body{
     display: inline-block;
     margin-top: 3rem;
     -webkit-filter: brightness(90%);
+}
+
+.card1:hover {
+    -webkit-filter: brightness(85%);
+    transition: 0.5s;
+}
+
+.card2:hover {
+    -webkit-filter: brightness(85%);
+    transition: 0.5s;
+}
+
+.card3:hover {
+    -webkit-filter: brightness(85%);
+    transition: 0.5s;
+}
+
+.card4:hover {
+    -webkit-filter: brightness(85%);
+    transition: 0.5s;
 }
