@@ -218,6 +218,7 @@ body{
     color: white;
     font-family: 'Squada One', cursive;
     font-size: 5rem;
+    -webkit-filter: brightness(70%);
 }
 
 .rally-h1 {
@@ -261,24 +262,28 @@ body{
     background-image: url(Kevin_Benavides.jpg);
     transition: 0.5s;
     box-shadow: 4px 3px 2px 1px grey;
+    -webkit-filter: brightness(80%);
 }
 
 .card2 {
     background-image: url(Danilo_Petrucci.jpg);
     transition: 0.5s;
     box-shadow: 4px 3px 2px 1px grey;
+    -webkit-filter: brightness(80%);
 }
 
 .card3 {
     background-image: url(Matthias_Walkner.jpg);
     transition: 0.5s;
     box-shadow: 4px 3px 2px 1px grey;
+    -webkit-filter: brightness(80%);
 }
 
 .card4 {
     background-image: url(Toby_Price.jpg);
     transition: 0.5s;
     box-shadow: 4px 3px 2px 1px grey;
+    -webkit-filter: brightness(80%);
 }
 
 .rider-name {
@@ -290,28 +295,29 @@ body{
 
 .rally-kep-2 {
     width: 100%;
-    height: 14rem;
-    display: inline-block;
-    margin-top: 3rem;
-    -webkit-filter: brightness(90%);
+    height: 45rem;
+    object-fit: cover;
+    -webkit-filter: brightness(70%);
+    margin-top: 30px;
 }
 
 .card1:hover {
-    -webkit-filter: brightness(85%);
+    -webkit-filter: brightness(100%);
     transition: 0.5s;
 }
 
 .card2:hover {
-    -webkit-filter: brightness(85%);
+    -webkit-filter: brightness(100%);
     transition: 0.5s;
 }
 
 .card3:hover {
-    -webkit-filter: brightness(85%);
+    -webkit-filter: brightness(100%);
     transition: 0.5s;
 }
 
 .card4:hover {
-    -webkit-filter: brightness(85%);
+    -webkit-filter: brightness(100%);
     transition: 0.5s;
 }
+
