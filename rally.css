@@ -334,6 +334,8 @@ body{
     font-size: 2.2rem;
 }
 
+/*Változtatások*/
+
 .rally-motor:hover {
     -webkit-filter: brightness(95%);
     transition: 0.5s;
