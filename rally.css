@@ -341,17 +341,30 @@ body{
 
 .big-text {
     margin-left: 12%;
+    margin-top: 3rem;
     font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .rally-motor-jobb {
+    margin-top: 8rem;
+    margin-right: 1rem;
     display: block;
     float: right;
+    box-shadow: 8px 6px 4px 2px grey;
 }
 
-table, td {
+table, th, td {
     border-bottom: 1px solid black;
-    margin-left: 20%;
-    
+    margin-left: 9%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px;
+}
+
+.honda-text {
+    margin-left: 3rem;
+    margin-right: 8rem;
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
